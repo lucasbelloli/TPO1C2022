@@ -339,7 +339,7 @@ background-color:lightskyblue;
 }
 
 .tildelista {
-    list-style-image: url('/tildegris2.png');
+    list-style-image: url('tildegris2.png');
     list-style-position: inside;
     margin: 0;
     padding: 0;
