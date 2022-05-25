@@ -124,6 +124,16 @@ padding-right: 2rem;
     grid-area: tres;
 }
 
+/* -------------------- LINK FIJO INICIO ------------------- */
+
+.linkFijoInicio {
+position: fixed;
+visibility: hidden;
+bottom: 6rem;
+right: 6rem;
+height: 7rem;
+}
+
 
 /* --------------------- PRESENTACION ------------------- */
 .presentacion {
@@ -140,11 +150,11 @@ padding-right: 2rem;
     grid-area: imagpres;
     display: grid;
     color: white;
-    font-size: var(--sizetextmain);
+    font-size: var(--sizetexti1);
         align-items: center;         /* alin vert */
         justify-items: center;         /* alin horiz */
         font-family: "boldfont";
-   background-image: url('aula.jpg');
+   background-image: url('images/aula.jpg');
     background-repeat: no-repeat;
     background-position: center;
   background-size: cover;
@@ -339,7 +349,7 @@ background-color:lightskyblue;
 }
 
 .tildelista {
-    list-style-image: url('tildegris2.png');
+    list-style-image: url("images/tildegris2.png");
     list-style-position: inside;
     margin: 0;
     padding: 0;
@@ -647,7 +657,7 @@ align-self:center;
 
 .FormuContacto i {
     animation-name: anim_flecha;
-        animation-duration: 3s;
+        animation-duration: 2s;
         /* animation-timing-function: ease-out;
         animation-fill-mode: forwards; */
         animation-iteration-count: infinite;
@@ -913,8 +923,15 @@ html {
 } /* fin de @media screen and (max-width: 65rem) */
 
 
-@media screen and (max-width: 48rem) {
 
+@media screen and (max-width: 53rem) {
+    html {
+        font-size: 55%;
+    }
+} /* fin de @media screen and (max-width: 53rem) */
+
+
+@media screen and (max-width: 48rem) {
 .classDetalles {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -1012,14 +1029,29 @@ html {
 } /* fin de @media screen and (max-width: 40rem) */
 
 
-@media screen and (max-width: 35rem) {
+@media screen and (max-width: 36rem) {
 html {
     font-size: 45%;
 }
-}     /* fin de @media screen and (max-width: 35rem) */
+}     /* fin de @media screen and (max-width: 36rem) */
 
-@media screen and (max-width: 30rem) {
+@media screen and (max-width: 32rem) {
     html {
         font-size: 40%;
     }
-}  /* fin de @media screen and (max-width: 35rem) */
+}  /* fin de @media screen and (max-width: 32rem) */
+
+
+@media screen and (max-width: 28rem) {
+    html {
+        font-size: 36%;
+    }
+} /* fin de @media screen and (max-width: 28rem) */
+
+@media screen and (max-width: 24rem) {
+    html {
+        font-size: 32%;
+    }
+} /* fin de @media screen and (max-width: 24rem) */
+
+
